@@ -1,0 +1,41 @@
+{
+  "meeting": {
+    "note_id": "note_synthetic_northstar_001",
+    "title": "Northstar Labs pilot and security review",
+    "occurred_at": "2026-10-01T15:00:00+01:00",
+    "summary": "Northstar wants to start a five-person pilot, but its legal review is blocked until it receives Nouvel's security material. The buyer asked for a response by Monday afternoon.",
+    "transcript": "Maya Chen: Thanks for making the time. What would you need to move forward with a pilot?\nCarla Ruiz: We want to start with five SDRs. The eight-thousand-pound quarterly budget is approved, although our CFO still needs to sign the final order.\nCarla Ruiz: Legal will not begin its review until it has your security questionnaire and data-retention policy. Could you send both by Monday afternoon?\nMaya Chen: Yes, I will send the security questionnaire and retention policy by Monday afternoon.\nCarla Ruiz: Great. If legal is comfortable, we would like the pilot to begin on 12 October.\nCarla Ruiz: One open question is whether prospect call transcripts can be deleted after ninety days. Please address that in the follow-up.\nMaya Chen: I will confirm the deletion options in the same email.",
+    "attendees": [
+      {
+        "name": "Maya Chen",
+        "email": "maya@nouvel.example",
+        "role": "internal"
+      },
+      {
+        "name": "Carla Ruiz",
+        "email": "carla@northstar.example",
+        "role": "external"
+      }
+    ]
+  },
+  "attio": {
+    "company_name": "Northstar Labs",
+    "company_record_id": "company_synthetic_northstar",
+    "contact_names": [
+      "Carla Ruiz"
+    ],
+    "deal_name": "Northstar SDR pilot",
+    "deal_record_id": "deal_synthetic_northstar_pilot",
+    "deal_stage": "Security review",
+    "deal_owner": "Maya Chen",
+    "recent_history": [
+      "Discovery call completed on 24 September 2026.",
+      "Buyer confirmed a five-seat pilot is the preferred starting scope."
+    ],
+    "qualification_context": [
+      "Budget is qualified when the buyer confirms an approved amount.",
+      "Security or legal blockers should be treated as time-sensitive when a target start date exists."
+    ]
+  }
+}
+

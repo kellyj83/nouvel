@@ -1,0 +1,64 @@
+{
+  "priority": "high",
+  "confidence": 0.94,
+  "priority_reason": "The buyer has approved budget and a target pilot date, but legal review is blocked by documents Nouvel committed to send by Monday afternoon.",
+  "evidence": [
+    {
+      "source": "transcript",
+      "excerpt": "The eight-thousand-pound quarterly budget is approved, although our CFO still needs to sign the final order.",
+      "interpretation": "There is a strong commercial signal, with final signature still outstanding."
+    },
+    {
+      "source": "transcript",
+      "excerpt": "Legal will not begin its review until it has your security questionnaire and data-retention policy.",
+      "interpretation": "The deal cannot progress until Nouvel supplies the requested security material."
+    },
+    {
+      "source": "transcript",
+      "excerpt": "Could you send both by Monday afternoon?",
+      "interpretation": "The buyer supplied a clear and near-term deadline."
+    },
+    {
+      "source": "attio",
+      "excerpt": "Security review",
+      "interpretation": "The CRM stage agrees that security is the current deal bottleneck."
+    }
+  ],
+  "commitments": [
+    {
+      "description": "Send the security questionnaire and data-retention policy.",
+      "owner": "Maya Chen",
+      "deadline_as_stated": "Monday afternoon",
+      "evidence_excerpt": "I will send the security questionnaire and retention policy by Monday afternoon."
+    },
+    {
+      "description": "Confirm whether prospect call transcripts can be deleted after ninety days.",
+      "owner": "Maya Chen",
+      "deadline_as_stated": "In the same follow-up email",
+      "evidence_excerpt": "I will confirm the deletion options in the same email."
+    }
+  ],
+  "unresolved_questions": [
+    "Can prospect call transcripts be deleted automatically after ninety days?",
+    "When will the CFO be available to sign the final order?"
+  ],
+  "recommended_action": {
+    "action": "send_follow_up",
+    "owner": "Maya Chen",
+    "rationale": "Send the promised security documents and answer the retention question so legal review can begin.",
+    "deadline": "2026-10-05T16:00:00+01:00"
+  },
+  "draft_follow_up": {
+    "subject": "Northstar pilot: security documents and retention question",
+    "body": "Hi Carla,\n\nThanks for today's conversation. As agreed, I am sending our security questionnaire and data-retention policy for your legal team. I will also confirm the available ninety-day transcript deletion options before you begin the review.\n\nWe have noted your preferred pilot start date of 12 October and the initial scope of five SDRs. Once legal is comfortable, we can confirm the remaining order and onboarding steps.\n\nBest,\nMaya"
+  },
+  "suggested_attio_note": "High-priority follow-up: Northstar has approved an £8,000 quarterly budget and wants a five-SDR pilot starting 12 October. Legal review is blocked until Maya sends the security questionnaire, retention policy, and an answer about ninety-day transcript deletion. CFO signature remains outstanding.",
+  "suggested_attio_task": {
+    "title": "Send Northstar security material",
+    "description": "Send the security questionnaire and retention policy, and confirm ninety-day transcript deletion options.",
+    "assignee": "Maya Chen",
+    "deadline": "2026-10-05T16:00:00+01:00"
+  },
+  "requires_human_approval": true
+}
+
