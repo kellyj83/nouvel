@@ -80,3 +80,7 @@ one `FollowUpInput` JSON file or a queue-ready JSON array for the rest of the pi
 
 `src/nouvel_followup/demo.py` runs the local end-to-end demo using mock assessments. It
 is intended for product walkthroughs where no API calls should be made.
+
+`src/nouvel_followup/live_clients.py` adds read-only Granola and Attio clients. The live
+input command requires explicit note/deal IDs and provider API keys, then writes a local
+`FollowUpInput` JSON file. It does not create notes, tasks or CRM updates.

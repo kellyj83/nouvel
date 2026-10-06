@@ -104,6 +104,33 @@ nouvel-demo-queue
 
 This builds mock inputs, applies mock assessments and renders the short ranked queue.
 
+Run the same mock workflow with real OpenAI assessments:
+
+```bash
+export OPENAI_API_KEY="your_key_here"
+nouvel-demo-openai-queue
+```
+
+This makes OpenAI API requests, but still does not call Granola or Attio and does not
+write to any CRM.
+
+## Build an input from live read-only APIs
+
+After setting provider keys, fetch one Granola note and one Attio deal record into the
+normal `FollowUpInput` format:
+
+```bash
+export GRANOLA_API_KEY="..."
+export ATTIO_API_KEY="..."
+
+nouvel-build-live-input \
+  --granola-note-id note_id_here \
+  --attio-deal-id deal_record_id_here \
+  --output live_input.json
+```
+
+This command only performs read requests. It does not write to Granola or Attio.
+
 ## Run the classification evaluations
 
 The starter dataset contains one high-, medium-, and low-urgency case with separate deal
