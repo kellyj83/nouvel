@@ -1,0 +1,20 @@
+{
+  "notes": [
+    {
+      "record_id": "deal_synthetic_northstar_pilot",
+      "content": "High-priority follow-up: Northstar has approved an \u00a38,000 quarterly budget and wants a five-SDR pilot starting 12 October. Legal review is blocked until Maya sends the security questionnaire, retention policy, and an answer about ninety-day transcript deletion. CFO signature remains outstanding."
+    }
+  ],
+  "tasks": [
+    {
+      "record_id": "deal_synthetic_northstar_pilot",
+      "task": {
+        "title": "Send Northstar security material",
+        "description": "Send the security questionnaire and retention policy, and confirm ninety-day transcript deletion options.",
+        "assignee": "Maya Chen",
+        "deadline": "2026-10-05T16:00:00+01:00"
+      }
+    }
+  ],
+  "external_side_effects_performed": false
+}

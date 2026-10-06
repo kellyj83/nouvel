@@ -1,0 +1,55 @@
+[
+  {
+    "company_name": "Northstar Labs",
+    "company_record_id": "company_synthetic_northstar",
+    "contact_names": [
+      "Carla Ruiz"
+    ],
+    "deal_name": "Northstar SDR pilot",
+    "deal_record_id": "deal_synthetic_northstar_pilot",
+    "deal_stage": "Security review",
+    "deal_owner": "Maya Chen",
+    "recent_history": [
+      "Discovery call completed on 24 September 2026.",
+      "Buyer confirmed a five-seat pilot is the preferred starting scope."
+    ],
+    "qualification_context": [
+      "Budget is qualified when the buyer confirms an approved amount.",
+      "Security or legal blockers should be treated as time-sensitive when a target start date exists."
+    ]
+  },
+  {
+    "company_name": "Harbour Analytics",
+    "company_record_id": "company_synthetic_harbour",
+    "contact_names": [
+      "Nina Shah"
+    ],
+    "deal_name": "Harbour outbound exploration",
+    "deal_record_id": "deal_synthetic_harbour_exploration",
+    "deal_stage": "Discovery",
+    "deal_owner": "Leo Grant",
+    "recent_history": [
+      "Nina asked for examples relevant to retail teams."
+    ],
+    "qualification_context": [
+      "Exploratory conversations without approved projects should be treated as early."
+    ]
+  },
+  {
+    "company_name": "Cedar Partners",
+    "company_record_id": "company_synthetic_cedar",
+    "contact_names": [
+      "Tom Reed"
+    ],
+    "deal_name": null,
+    "deal_record_id": "deal_synthetic_cedar_intro",
+    "deal_stage": "No active opportunity",
+    "deal_owner": "Ava Cole",
+    "recent_history": [
+      "Introductory conversation only."
+    ],
+    "qualification_context": [
+      "No-action requests should not trigger sales follow-up."
+    ]
+  }
+]

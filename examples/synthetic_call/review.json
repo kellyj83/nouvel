@@ -1,0 +1,11 @@
+{
+  "note_id": "note_synthetic_northstar_001",
+  "company_name": "Northstar Labs",
+  "deal_record_id": "deal_synthetic_northstar_pilot",
+  "reviewer": "Jonathan",
+  "reviewed_at": "2026-10-05T14:29:18.093877Z",
+  "decision": "approved",
+  "comments": null,
+  "assessment_fingerprint": "32ec357b188d3fe24230af7cc37558b8b060fc729d0a95b67ee9bbeeb60f9bee",
+  "side_effects_performed": false
+}

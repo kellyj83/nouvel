@@ -1,0 +1,59 @@
+[
+  {
+    "note_id": "note_synthetic_northstar_001",
+    "title": "Northstar Labs pilot and security review",
+    "occurred_at": "2026-10-01T15:00:00+01:00",
+    "summary": "Northstar wants to start a five-person pilot, but its legal review is blocked until it receives Nouvel's security material. The buyer asked for a response by Monday afternoon.",
+    "transcript": "Maya Chen: Thanks for making the time. What would you need to move forward with a pilot?\nCarla Ruiz: We want to start with five SDRs. The eight-thousand-pound quarterly budget is approved, although our CFO still needs to sign the final order.\nCarla Ruiz: Legal will not begin its review until it has your security questionnaire and data-retention policy. Could you send both by Monday afternoon?\nMaya Chen: Yes, I will send the security questionnaire and retention policy by Monday afternoon.\nCarla Ruiz: Great. If legal is comfortable, we would like the pilot to begin on 12 October.\nCarla Ruiz: One open question is whether prospect call transcripts can be deleted after ninety days. Please address that in the follow-up.\nMaya Chen: I will confirm the deletion options in the same email.",
+    "attendees": [
+      {
+        "name": "Maya Chen",
+        "email": "maya@nouvel.example",
+        "role": "internal"
+      },
+      {
+        "name": "Carla Ruiz",
+        "email": "carla@northstar.example",
+        "role": "external"
+      }
+    ]
+  },
+  {
+    "note_id": "note_synthetic_harbour_001",
+    "title": "Harbour Analytics discovery call",
+    "occurred_at": "2026-10-02T11:00:00+01:00",
+    "summary": "Harbour is exploring options and asked for a retail case study before an internal planning meeting next week.",
+    "transcript": "Leo Grant: Does the workflow sound relevant to your team?\nNina Shah: Potentially, but we are still exploring options and do not have an approved project yet.\nNina Shah: Could you send the retail case study when you get a chance? We will discuss it at our planning meeting next week.\nLeo Grant: Yes, I will send it over.",
+    "attendees": [
+      {
+        "name": "Leo Grant",
+        "email": "leo@nouvel.example",
+        "role": "internal"
+      },
+      {
+        "name": "Nina Shah",
+        "email": "nina@harbour.example",
+        "role": "external"
+      }
+    ]
+  },
+  {
+    "note_id": "note_synthetic_cedar_001",
+    "title": "Cedar Partners introductory conversation",
+    "occurred_at": "2026-10-03T09:30:00+01:00",
+    "summary": "Cedar is not evaluating outbound tools this year and requested no proposal.",
+    "transcript": "Ava Cole: Would it be useful if I sent a proposal?\nTom Reed: We are not evaluating outbound tools this year. Please do not send a proposal. I will get back in touch if our priorities change.\nAva Cole: Understood, I will leave it with you.",
+    "attendees": [
+      {
+        "name": "Ava Cole",
+        "email": "ava@nouvel.example",
+        "role": "internal"
+      },
+      {
+        "name": "Tom Reed",
+        "email": "tom@cedar.example",
+        "role": "external"
+      }
+    ]
+  }
+]

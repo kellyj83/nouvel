@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@openai/agents": "^0.18.0",
+    "zod": "^4.6.5"
+  }
+}

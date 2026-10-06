@@ -17,10 +17,18 @@ class AttendeeRole(str, Enum):
     UNKNOWN = "unknown"
 
 
-class Priority(str, Enum):
+class FollowUpUrgency(str, Enum):
     HIGH = "high"
     MEDIUM = "medium"
     LOW = "low"
+
+
+class DealReadiness(str, Enum):
+    NO_ACTIVE_OPPORTUNITY = "no_active_opportunity"
+    EARLY = "early"
+    PROGRESSING = "progressing"
+    BLOCKED = "blocked"
+    READY = "ready"
 
 
 class EvidenceSource(str, Enum):
@@ -102,9 +110,12 @@ class AttioTaskSuggestion(ContractModel):
 
 
 class FollowUpAssessment(ContractModel):
-    priority: Priority
-    confidence: float = Field(ge=0.0, le=1.0)
-    priority_reason: str = Field(min_length=1)
+    follow_up_urgency: FollowUpUrgency
+    urgency_confidence: float = Field(ge=0.0, le=1.0)
+    urgency_reason: str = Field(min_length=1)
+    deal_readiness: DealReadiness
+    readiness_confidence: float = Field(ge=0.0, le=1.0)
+    readiness_reason: str = Field(min_length=1)
     evidence: list[Evidence] = Field(min_length=1)
     commitments: list[Commitment] = Field(default_factory=list)
     unresolved_questions: list[str] = Field(default_factory=list)
@@ -114,3 +125,23 @@ class FollowUpAssessment(ContractModel):
     suggested_attio_task: AttioTaskSuggestion | None = None
     requires_human_approval: bool = True
 
+
+class QueueItem(ContractModel):
+    rank: int = Field(ge=1)
+    priority_score: int = Field(ge=0)
+    note_id: str = Field(min_length=1)
+    meeting_title: str = Field(min_length=1)
+    company_name: str = Field(min_length=1)
+    deal_name: str | None = None
+    owner: str = Field(min_length=1)
+    follow_up_urgency: FollowUpUrgency
+    deal_readiness: DealReadiness
+    urgency_reason: str = Field(min_length=1)
+    readiness_reason: str = Field(min_length=1)
+    next_action: RecommendedAction
+    evidence: list[Evidence] = Field(min_length=1)
+    requires_human_approval: bool = True
+
+
+class FollowUpQueue(ContractModel):
+    items: list[QueueItem] = Field(default_factory=list)

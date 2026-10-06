@@ -1,0 +1,88 @@
+{
+  "cases": [
+    {
+      "name": "mixed_follow_up_queue",
+      "inputs": [
+        {
+          "meeting": {
+            "note_id": "note_eval_high_001",
+            "title": "Northstar Labs pilot and security review",
+            "occurred_at": "2026-10-01T15:00:00+01:00",
+            "summary": "Northstar wants a five-person pilot, but legal review is blocked until it receives security material.",
+            "transcript": "Maya Chen: What would you need to move forward with a pilot?\nCarla Ruiz: The eight-thousand-pound quarterly budget is approved.\nCarla Ruiz: Legal will not begin its review until it has your security questionnaire and data-retention policy. Could you send both by Monday afternoon?\nMaya Chen: Yes, I will send both by Monday afternoon.\nCarla Ruiz: If legal is comfortable, we would like the pilot to begin on 12 October.",
+            "attendees": [
+              {
+                "name": "Maya Chen",
+                "role": "internal"
+              },
+              {
+                "name": "Carla Ruiz",
+                "role": "external"
+              }
+            ]
+          },
+          "attio": {
+            "company_name": "Northstar Labs",
+            "deal_name": "Northstar SDR pilot",
+            "deal_stage": "Security review",
+            "deal_owner": "Maya Chen"
+          }
+        },
+        {
+          "meeting": {
+            "note_id": "note_eval_medium_001",
+            "title": "Harbour Analytics discovery call",
+            "occurred_at": "2026-10-02T11:00:00+01:00",
+            "summary": "Harbour is interested and requested a relevant case study before an internal discussion next week.",
+            "transcript": "Leo Grant: Does the workflow sound relevant to your team?\nNina Shah: Potentially, but we are still exploring options and do not have an approved project yet.\nNina Shah: Could you send the retail case study when you get a chance? We will discuss it at our planning meeting next week.\nLeo Grant: Yes, I will send it over.",
+            "attendees": [
+              {
+                "name": "Leo Grant",
+                "role": "internal"
+              },
+              {
+                "name": "Nina Shah",
+                "role": "external"
+              }
+            ]
+          },
+          "attio": {
+            "company_name": "Harbour Analytics",
+            "deal_name": "Harbour outbound exploration",
+            "deal_stage": "Discovery",
+            "deal_owner": "Leo Grant"
+          }
+        },
+        {
+          "meeting": {
+            "note_id": "note_eval_low_001",
+            "title": "Cedar Partners introductory conversation",
+            "occurred_at": "2026-10-03T09:30:00+01:00",
+            "summary": "Cedar is not evaluating outbound tools this year and requested no proposal.",
+            "transcript": "Ava Cole: Would it be useful if I sent a proposal?\nTom Reed: We are not evaluating outbound tools this year. Please do not send a proposal. I will get back in touch if our priorities change.\nAva Cole: Understood, I will leave it with you.",
+            "attendees": [
+              {
+                "name": "Ava Cole",
+                "role": "internal"
+              },
+              {
+                "name": "Tom Reed",
+                "role": "external"
+              }
+            ]
+          },
+          "attio": {
+            "company_name": "Cedar Partners",
+            "deal_stage": "No active opportunity",
+            "deal_owner": "Ava Cole"
+          }
+        }
+      ],
+      "expected_order": [
+        "note_eval_high_001",
+        "note_eval_medium_001",
+        "note_eval_low_001"
+      ]
+    }
+  ]
+}

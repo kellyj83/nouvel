@@ -1,7 +1,10 @@
 {
-  "priority": "high",
-  "confidence": 0.94,
-  "priority_reason": "The buyer has approved budget and a target pilot date, but legal review is blocked by documents Nouvel committed to send by Monday afternoon.",
+  "follow_up_urgency": "high",
+  "urgency_confidence": 0.94,
+  "urgency_reason": "Legal review is blocked by documents Nouvel committed to send by Monday afternoon.",
+  "deal_readiness": "blocked",
+  "readiness_confidence": 0.96,
+  "readiness_reason": "The buyer has approved budget and a target pilot date, but legal review and CFO signature remain outstanding.",
   "evidence": [
     {
       "source": "transcript",
@@ -61,4 +64,3 @@
   },
   "requires_human_approval": true
 }
-

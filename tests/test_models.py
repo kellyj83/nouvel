@@ -31,9 +31,12 @@ def valid_input() -> dict:
 
 def valid_assessment() -> dict:
     return {
-        "priority": "high",
-        "confidence": 0.88,
-        "priority_reason": "The buyer requested a time-bound agreement.",
+        "follow_up_urgency": "high",
+        "urgency_confidence": 0.88,
+        "urgency_reason": "The buyer requested a time-bound agreement.",
+        "deal_readiness": "blocked",
+        "readiness_confidence": 0.83,
+        "readiness_reason": "The agreement is required before the pilot can proceed.",
         "evidence": [
             {
                 "source": "transcript",
@@ -83,12 +86,13 @@ class FollowUpAssessmentTests(unittest.TestCase):
     def test_accepts_a_reviewable_assessment(self) -> None:
         assessment = FollowUpAssessment.model_validate(valid_assessment())
 
-        self.assertEqual(assessment.priority.value, "high")
+        self.assertEqual(assessment.follow_up_urgency.value, "high")
+        self.assertEqual(assessment.deal_readiness.value, "blocked")
         self.assertTrue(assessment.requires_human_approval)
 
-    def test_rejects_confidence_above_one(self) -> None:
+    def test_rejects_urgency_confidence_above_one(self) -> None:
         data = valid_assessment()
-        data["confidence"] = 1.1
+        data["urgency_confidence"] = 1.1
 
         with self.assertRaises(ValidationError):
             FollowUpAssessment.model_validate(data)
@@ -103,4 +107,3 @@ class FollowUpAssessmentTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-

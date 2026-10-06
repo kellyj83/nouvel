@@ -19,7 +19,8 @@ class SyntheticExampleTests(unittest.TestCase):
         )
 
     def test_example_is_valid_and_reviewable(self) -> None:
-        self.assertEqual(self.assessment.priority.value, "high")
+        self.assertEqual(self.assessment.follow_up_urgency.value, "high")
+        self.assertEqual(self.assessment.deal_readiness.value, "blocked")
         self.assertTrue(self.assessment.requires_human_approval)
         self.assertEqual(
             self.assessment.recommended_action.owner,
@@ -51,4 +52,3 @@ class SyntheticExampleTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-

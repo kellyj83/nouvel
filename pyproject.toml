@@ -9,9 +9,19 @@ description = "A review-first post-call follow-up agent for Granola and Attio wo
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+  "openai==2.44.0",
   "pydantic==2.13.5",
 ]
 
+[project.scripts]
+nouvel-assess = "nouvel_followup.assessment:main"
+nouvel-eval = "nouvel_followup.evaluation:main"
+nouvel-review = "nouvel_followup.review:main"
+nouvel-mock-attio = "nouvel_followup.integrations:main"
+nouvel-queue = "nouvel_followup.queue:main"
+nouvel-build-input = "nouvel_followup.input_builder:main"
+nouvel-build-batch-input = "nouvel_followup.input_builder:batch_main"
+nouvel-demo-queue = "nouvel_followup.demo:main"
+
 [tool.setuptools.packages.find]
 where = ["src"]
-

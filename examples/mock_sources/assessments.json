@@ -1,0 +1,148 @@
+{
+  "note_synthetic_northstar_001": {
+    "follow_up_urgency": "high",
+    "urgency_confidence": 0.94,
+    "urgency_reason": "Legal review is blocked by documents Nouvel committed to send by Monday afternoon.",
+    "deal_readiness": "blocked",
+    "readiness_confidence": 0.96,
+    "readiness_reason": "The buyer has approved budget and a target pilot date, but legal review and CFO signature remain outstanding.",
+    "evidence": [
+      {
+        "source": "transcript",
+        "excerpt": "Legal will not begin its review until it has your security questionnaire and data-retention policy.",
+        "interpretation": "The deal cannot progress until Nouvel supplies the requested security material."
+      },
+      {
+        "source": "transcript",
+        "excerpt": "Could you send both by Monday afternoon?",
+        "interpretation": "The buyer supplied a clear and near-term deadline."
+      },
+      {
+        "source": "attio",
+        "excerpt": "Security review",
+        "interpretation": "The CRM stage agrees that security is the current deal bottleneck."
+      }
+    ],
+    "commitments": [
+      {
+        "description": "Send the security questionnaire and data-retention policy.",
+        "owner": "Maya Chen",
+        "deadline_as_stated": "Monday afternoon",
+        "evidence_excerpt": "I will send the security questionnaire and retention policy by Monday afternoon."
+      }
+    ],
+    "unresolved_questions": [
+      "Can prospect call transcripts be deleted automatically after ninety days?",
+      "When will the CFO be available to sign the final order?"
+    ],
+    "recommended_action": {
+      "action": "send_follow_up",
+      "owner": "Maya Chen",
+      "rationale": "Send the promised security documents and answer the retention question so legal review can begin.",
+      "deadline": "2026-10-05T16:00:00+01:00"
+    },
+    "draft_follow_up": {
+      "subject": "Northstar pilot: security documents and retention question",
+      "body": "Hi Carla,\n\nThanks for today's conversation. As agreed, I am sending our security questionnaire and data-retention policy for your legal team. I will also confirm the available ninety-day transcript deletion options before you begin the review.\n\nBest,\nMaya"
+    },
+    "suggested_attio_note": "High-priority follow-up: Northstar legal review is blocked until Maya sends the security questionnaire, retention policy and an answer about ninety-day transcript deletion.",
+    "suggested_attio_task": {
+      "title": "Send Northstar security material",
+      "description": "Send the security questionnaire and retention policy, and confirm ninety-day transcript deletion options.",
+      "assignee": "Maya Chen",
+      "deadline": "2026-10-05T16:00:00+01:00"
+    },
+    "requires_human_approval": true
+  },
+  "note_synthetic_harbour_001": {
+    "follow_up_urgency": "medium",
+    "urgency_confidence": 0.82,
+    "urgency_reason": "Harbour requested a retail case study before an internal planning meeting next week.",
+    "deal_readiness": "early",
+    "readiness_confidence": 0.88,
+    "readiness_reason": "The buyer is still exploring options and does not have an approved project yet.",
+    "evidence": [
+      {
+        "source": "transcript",
+        "excerpt": "Could you send the retail case study when you get a chance?",
+        "interpretation": "The buyer asked for useful follow-up material."
+      },
+      {
+        "source": "transcript",
+        "excerpt": "We will discuss it at our planning meeting next week.",
+        "interpretation": "There is a near-term internal discussion, but no hard blocker."
+      },
+      {
+        "source": "attio",
+        "excerpt": "Discovery",
+        "interpretation": "The deal is still in an early CRM stage."
+      }
+    ],
+    "commitments": [
+      {
+        "description": "Send the retail case study.",
+        "owner": "Leo Grant",
+        "deadline_as_stated": "When you get a chance",
+        "evidence_excerpt": "Yes, I will send it over."
+      }
+    ],
+    "unresolved_questions": [
+      "What problem would Harbour prioritise if the project is approved?"
+    ],
+    "recommended_action": {
+      "action": "send_follow_up",
+      "owner": "Leo Grant",
+      "rationale": "Send the retail case study ahead of Harbour's planning meeting.",
+      "deadline": null
+    },
+    "draft_follow_up": {
+      "subject": "Retail case study for Harbour",
+      "body": "Hi Nina,\n\nThanks for the conversation. I am sending over the retail case study for your planning discussion next week.\n\nBest,\nLeo"
+    },
+    "suggested_attio_note": "Medium-priority follow-up: Harbour is exploring options and requested a retail case study before next week's planning meeting. No approved project yet.",
+    "suggested_attio_task": {
+      "title": "Send Harbour retail case study",
+      "description": "Send the requested retail case study before Harbour's planning meeting next week.",
+      "assignee": "Leo Grant",
+      "deadline": null
+    },
+    "requires_human_approval": true
+  },
+  "note_synthetic_cedar_001": {
+    "follow_up_urgency": "low",
+    "urgency_confidence": 0.9,
+    "urgency_reason": "The buyer said they are not evaluating outbound tools this year and requested no proposal.",
+    "deal_readiness": "no_active_opportunity",
+    "readiness_confidence": 0.94,
+    "readiness_reason": "Cedar explicitly has no current buying process.",
+    "evidence": [
+      {
+        "source": "transcript",
+        "excerpt": "We are not evaluating outbound tools this year.",
+        "interpretation": "There is no active evaluation."
+      },
+      {
+        "source": "transcript",
+        "excerpt": "Please do not send a proposal.",
+        "interpretation": "The buyer asked not to receive sales follow-up."
+      },
+      {
+        "source": "attio",
+        "excerpt": "No active opportunity",
+        "interpretation": "The CRM stage aligns with the buyer's statement."
+      }
+    ],
+    "commitments": [],
+    "unresolved_questions": [],
+    "recommended_action": {
+      "action": "no_action",
+      "owner": "Ava Cole",
+      "rationale": "Respect the buyer's request not to send a proposal.",
+      "deadline": null
+    },
+    "draft_follow_up": null,
+    "suggested_attio_note": "Low-priority follow-up: Cedar is not evaluating outbound tools this year and asked Nouvel not to send a proposal.",
+    "suggested_attio_task": null,
+    "requires_human_approval": true
+  }
+}
