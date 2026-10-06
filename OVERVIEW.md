@@ -1,4 +1,4 @@
-# Nouvel Follow-Up Agent Founder Brief
+# Nouvel Follow up Agent
 
 ## What this project is
 
@@ -119,7 +119,7 @@ Attio is treated as the source of truth for:
 
 The intended production flow links the two through the Granola-to-Attio sync.
 
-## Questions for the founder
+## Questions
 
 1. Is the Granola-to-Attio integration already enabled in the workspace?
 2. Is there a reliable field or link in Attio that points back to the Granola note?
